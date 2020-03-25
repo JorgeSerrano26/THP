@@ -20,5 +20,6 @@ public class ejercicio3 {
 		input.close();
 		
 		System.out.println("Bienvenido a eclipse " + name);
+		input.close();
 	}
 }

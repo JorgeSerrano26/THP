@@ -22,5 +22,7 @@ public class ejercicio4
        
 
         System.out.println( "La suma entre " + num1 + " y " + num2 + " da como resultado " + (num1+num2) + "." );
+        
+        input.close();
     }
 }
