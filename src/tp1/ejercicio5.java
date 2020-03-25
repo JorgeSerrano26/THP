@@ -24,6 +24,8 @@ public class ejercicio5 {
 		System.out.print("Ingrese numero 2: ");
 		num2 = input.nextInt();
 		
+		input.close();
+		
 		if(num2 == 0) {
 			System.out.print("Nose se puede dividir por 0");
 		}else {
