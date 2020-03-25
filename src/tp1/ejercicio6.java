@@ -21,18 +21,20 @@ public class ejercicio6 {
 		num1 = input.nextInt();
 
 		if (num1 > 0) {
-			if (num1 % 2 == 0)
+			if (num1 % 2 == 0) {
 				System.out.println("El número es par");
-			else
+			} else {
 				System.out.println("El número es impar");
+			}
 		} else {
 			System.out.println("Ingresaste 0, volve a intentarlo");
 			System.out.print("Introduzca el número: ");
 			num1 = input.nextInt();
-			if (num1 % 2 == 0)
+			if (num1 % 2 == 0) {
 				System.out.println("El número es par");
-			else
+			} else {
 				System.out.println("El número es impar");
+			}
 		}
 		input.close();
 
