@@ -50,6 +50,10 @@ public class ejercicio14 {
 			int div = numero1 / numero2;
 			System.out.print("El resutlado de la division es " + div);
 			break;
+		default:
+			System.out.print("No se ingreso operacion valida");
+			break;
+				
 		}
 	}
 }
