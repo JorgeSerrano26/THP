@@ -6,8 +6,8 @@ public class ejercicio13 {
 
 	static Scanner input;
 	
-	public static final int more40hours = 20;
-	public static final int less40hours = 16;
+	public static final int MORE_40_HOURS = 20;
+	public static final int LESS_40_HOURS = 16;
 	
 	public static void main(String[] args) {
 
@@ -31,9 +31,9 @@ public class ejercicio13 {
 		input.close();
 		
 		if(hours<=40) {
-			totalToPay = hours * less40hours;
+			totalToPay = hours * LESS_40_HOURS;
 		}else {
-			totalToPay = (40 * less40hours) + ( (hours - 40) * more40hours); 
+			totalToPay = (40 * LESS_40_HOURS) + ( (hours - 40) * MORE_40_HOURS); 
 		}
 		System.out.print("Se pagaran: $"+ totalToPay);
 	}
