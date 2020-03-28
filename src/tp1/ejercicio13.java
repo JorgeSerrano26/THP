@@ -26,8 +26,9 @@ public class ejercicio13 {
 		input = new Scanner(System.in);
 		int hours, totalToPay;
 		
-		System.out.prinln("Ingrese la cantidad de horas trabajadas: ");
+		System.out.println("Ingrese la cantidad de horas trabajadas: ");
 		hours = input.nextInt();
+		input.close();
 		
 		if(hours<=40) {
 			totalToPay = hours * less40hours;
