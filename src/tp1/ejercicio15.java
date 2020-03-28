@@ -3,6 +3,7 @@ package tp1;
 import java.util.Scanner;
 
 public class ejercicio15 {
+	
 	static Scanner input;
 
 	public static void main(String[] args) {
@@ -17,8 +18,30 @@ public class ejercicio15 {
 		 * ninguno, respectivamente. Definí un lote de prueba de varios números y probá
 		 * el algoritmo, escribiendo los resultados.
 		 */
+		boolean unDigito = false, esImpar = false, 
+				estaEnAmbos = false, noEstaEnNinguno = false;
+		
 		input = new Scanner(System.in);
+		int num;
+		System.out.print("Ingrese un numero: ");
+		num = input.nextInt();
 		input.close();
-		System.out.print(9-10);
+		
+		if(num-10 < 0 && num%2==1 ) {
+			estaEnAmbos = true;
+			System.out.println("Esta en ambos conjuntos");
+		}else if(num-10 < 0 ) {
+			unDigito = true;
+			System.out.println("Es de un digito");
+		}else if(num%2==1){
+			esImpar = true;
+			System.out.println("Es impar");
+		}else{
+			noEstaEnNinguno = true;
+			System.out.println("No esta en ningun conjunto");
+		}
+		
+		
+		
 	}
 }
