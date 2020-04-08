@@ -12,6 +12,7 @@ public class ejercicio6 {
 		 * Realizá un programa en el cual se pida el nombre y el promedio de 10 alumnos.
 		 * Al finalizar, debe mostrar por pantalla el nombre y el promedio del mejor.
 		 */
+		//Lo hice con array, pero tambien exite solucion con ArrayList
 		input = new Scanner(System.in);
 		
 		String nombre;
