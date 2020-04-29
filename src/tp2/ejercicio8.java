@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class ejercicio8 {
 
-	static Scanner input;
 
 	public static void main(String[] args) {
 		/*
@@ -22,7 +21,7 @@ public class ejercicio8 {
 		}
 
 		if (esMultiplo(15, 3) == true) {
-			System.out.println("es multiplo");
+			System.out.println("Es multiplo");
 		} else {
 			System.out.println("No es multiplo");
 		}
